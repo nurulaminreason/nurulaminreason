@@ -1,7 +1,9 @@
 <a href="https://mohammadnurulamin.com/">
   <picture>
-    <source media="(max-width: 600px)" srcset="./assets/reason-hero-mobile.svg">
-    <img src="./assets/reason-hero.svg" width="100%" alt="Reason. Mohammad Nurul Amin. Entrepreneur. I build products. I’m all in on AI.">
+    <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="./assets/reason-hero-mobile.svg">
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/reason-hero.svg">
+    <source media="(max-width: 600px)" srcset="./assets/reason-hero-mobile-motion.svg">
+    <img src="./assets/reason-hero-motion.svg" width="100%" alt="Reason. Mohammad Nurul Amin. Entrepreneur. I build products. I’m all in on AI.">
   </picture>
 </a>
 
